@@ -9,7 +9,7 @@ const Hero = () => {
       <div
         className={`${styles.paddingX} absolute  top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}
       >
-        <div className="relative w-[350px] h-[350px]  ">
+        <div className="relative h-[200px] w-[200px] md:w-[400px] md:h-[400px]  ">
           <img
             className="absolute rounded-[20px]   object-cover"
             src={hudhaifa_personal}
