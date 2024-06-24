@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -15,10 +14,8 @@ import {
   laravel,
   nodejs,
   mysql,
-  git,
   vue,
   khmsat,
-  HSA2,
   rhodium,
   mostaql,
   book,
@@ -165,7 +162,7 @@ const experiences = [
     iconBg: "#050816",
     date: "Dec 2022 - May 2023",
     points: [
-      "I worked for this company as a mobile application developerز",
+      "I worked for this company as a mobile application developer",
       "I worked on more than one application, including them Social Cube and Xenon.",
       "I learned a lot in a short period of time about the world of mobile application development.",
     ],
