@@ -22,10 +22,14 @@ import {
   tabeb,
   hudhaifa,
   company_website,
+  seasons_4,
   runhill_website,
   chair,
   pinia,
   Ahmed_hani,
+  bakeet,
+  bakeet_website,
+  quran_player
 } from "../assets";
 
 export const navLinks = [
@@ -169,8 +173,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Hhodium",
-    icon: rhodium,
+    company_name: "Bakeet",
+    icon: bakeet_website,
     iconBg: "#3722a1",
     date: "Dec 2022 - Present",
     points: [
@@ -343,6 +347,77 @@ const projects = [
     ],
     image: company_website,
     source_code_link: "https://hudhaifa-1.github.io/Company/",
+  },
+  {
+    name: "Bakeet",
+    description:
+      "Developed a dynamic and visually appealing landing page for the Bakeet e-commerce platform using modern web technologies. The design emphasizes a smooth user experience with engaging UI elements, responsive layouts, and strategic call-to-action buttons for app downloads.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "text-purple-600",
+      },
+      {
+        name: "tailwind",
+        color: "text-yellow-600",
+      },
+    ],
+    image: bakeet,
+    source_code_link: "https://bakeet.shop/",
+  },
+  {
+    name: "4 Seasons",
+    description:
+      "Developed a professional website for 4 Seasons Company using HTML, CSS. The site features a modern design with responsive layouts and interactive elements, highlighting the company's diverse services in catering, logistics, and facility management. Designed to provide an intuitive user experience.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "text-yellow-600",
+      },
+    ],
+    image: seasons_4,
+    source_code_link: "https://hudhaifa-1.github.io/4_Seasons/index.html",
+  },
+  {
+    name: "Quran player",
+    description:
+      "Developed an intuitive and aesthetically pleasing Quran Player web application using modern front-end technologies. The platform offers a seamless audio streaming experience with a clean UI, interactive controls, and responsive design. Designed for accessibility and ease of use.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "text-purple-600",
+      },
+      {
+        name: "tailwind",
+        color: "text-yellow-600",
+      },
+    ],
+    image: quran_player,
+    source_code_link: "https://hudhaifa-1.github.io/Quran_Player/",
   },
 ];
 

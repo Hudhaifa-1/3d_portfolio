@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
 import { instagram } from "../assets";
-import { youtube } from "../assets";
+import { whatsapp } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -28,20 +28,21 @@ const Contact = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
+    if(form.email && form.message && form.name){
+      setLoading(true);
 
     emailjs
       .send(
-        "service_u01s9j9",
-        "template_vuwrgie",
+        "service_5g75cjb",
+        "template_46f1x3o",
         {
           from_name: form.name,
           to_name: "Hudhaifa",
           from_email: form.email,
-          to_email: "thehudhaifa@gmail.com",
+          to_email: "hudhaifa.muhammed.i@gmail.com",
           message: form.message,
         },
-        "mfbUU51s1dvcG3K_8"
+        "aCmnFAbwiKxoFNGmw"
       )
       .then(
         () => {
@@ -60,6 +61,7 @@ const Contact = () => {
           setLoading(false);
         }
       );
+    }
   };
   return (
     <div>
@@ -140,6 +142,16 @@ const Contact = () => {
             src={instagram}
             alt={instagram}
             className="w-1/2 h-1/2 object-contain"
+          />
+        </div>
+        <div
+          onClick={() => window.open("https://wa.me/96407721983835", "_blank")}
+          className="black-gradient  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <img
+            src={whatsapp}
+            alt={whatsapp}
+            className="object-cover"
           />
         </div>
             </div>

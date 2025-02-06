@@ -30,12 +30,16 @@ import khmsat from "./company/khmsat.jpeg";
 import HSA2 from "./company/HSA2.png";
 import mostaql from "./company/mostaql.png";
 import rhodium from "./company/rhodium.png"
+import bakeet_website from "./company/bakeet_website.png"
 
 import book from "./book.png"
 import tabeb from "./tabeb.png";
 import hudhaifa from "./hudhaifa.png";
 import company_website from "./company_website.png";
+import bakeet from "./bakeet.png";
+import seasons_4 from "./4_seasons.png";
 import runhill_website from "./runhill_website.png";
+import quran_player from "./quran_player.png";
 
 import chair from "./chair.png";
 import Ahmed_hani from "./Ahemd-hani.jpg";
@@ -43,6 +47,7 @@ import Ahmed_hani from "./Ahemd-hani.jpg";
 import linkedin from "./linkedin.png"
 import instagram from "./instagram.png"
 import youtube from "./youtube.png"
+import whatsapp from "./whatsapp.png"
 
 export {
   logo,
@@ -76,12 +81,17 @@ export {
   tabeb,
   hudhaifa,
   company_website,
+  bakeet,
   runhill_website,
+  quran_player,
+  bakeet_website,
+  seasons_4,
   chair,
   laravel,
   pinia,
   Ahmed_hani,
   linkedin,
   instagram,
-  youtube
+  youtube,
+  whatsapp,
 };
