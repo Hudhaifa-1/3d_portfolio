@@ -40,6 +40,7 @@ import bakeet from "./bakeet.png";
 import seasons_4 from "./4_seasons.png";
 import runhill_website from "./runhill_website.png";
 import quran_player from "./quran_player.png";
+import mern_ecommerce from "./mern_ecommerce.jpeg";
 
 import chair from "./chair.png";
 import Ahmed_hani from "./Ahemd-hani.jpg";
@@ -85,6 +86,7 @@ export {
   runhill_website,
   quran_player,
   bakeet_website,
+  mern_ecommerce,
   seasons_4,
   chair,
   laravel,
