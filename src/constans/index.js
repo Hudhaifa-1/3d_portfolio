@@ -187,7 +187,7 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const testimonials =  [
   {
     testimonial:
       "As a student, Hudhaifa was hardworking and dedicated and has actively set herself up for a very promising profession in his field.",
